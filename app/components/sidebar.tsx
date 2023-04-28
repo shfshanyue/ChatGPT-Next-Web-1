@@ -96,10 +96,13 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+        <div className={styles["sidebar-title"]}>慧子姐AI俱乐部</div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          跟着慧子姐，成为AI时代的领跑者。
         </div>
+        <div className={styles["sidebar-sub-title"]}>公众号：慧子姐</div>
+        <div className={styles["sidebar-sub-title"]}>获访问密码添加微信：</div>
+        <div className={styles["sidebar-sub-title"]}>a206016117</div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
